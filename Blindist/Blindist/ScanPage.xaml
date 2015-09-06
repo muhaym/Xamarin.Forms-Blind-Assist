@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Blindist.ScanPage">
+    <Grid BackgroundColor="#dbdef0"
+          Padding="0"
+          RowSpacing="0"
+          ColumnSpacing="0"
+           VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Image Source="logo.png" Grid.Row="0" BackgroundColor="#101536"/>
+      
+            <StackLayout Grid.Row="1">
+            <Button x:Name="ScanButton" HeightRequest="650" Text="Scan the environment" Clicked="ScanButtonClicked" BackgroundColor="#27327e"></Button>
+                <Image WidthRequest="50" HeightRequest="50"  x:Name="image"/>
+            </StackLayout>
+       
+    </Grid>
+</ContentPage>
