@@ -8,7 +8,7 @@ We have great plans ahead, due to tight academic restrains, we could not contrib
 Please gothrough http://bit.ly/blindsist
 
 #How I developed this, Blog post
-http://bit.ly/xhacknt
+http://muhaym.in/blindsist-assisting-visually-impaired-people-using-ibm-bluemix-visual-recognition/
 
 #Components Required / Services Used
 Xamarin Trail or Business Subscription for Compiling and Running the project either in Android, iOS or Windows Phone
